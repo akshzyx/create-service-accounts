@@ -62,7 +62,11 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 - Close CMD
 
 Now
-- Open CMD from mltb folder
+- Open CMD from create-service-accounts folder 
+ 
+   >click on the "This PC > New Volume (F) > create-service-accounts" something like this at the top then type "cmd" there and press enter
+
+
 - Run the following commands
 
   - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
@@ -122,6 +126,8 @@ Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in
 ### Creating the service accounts
 
 - Open POWERSHELL from windows Accounts folder
+
+>click on the "This PC > New Volume (F) > create-service-accounts > accounts" something like this at the top then type "POWERSHELL" there and press enter
 
 - Copy Paste this command 
    - Windows users
