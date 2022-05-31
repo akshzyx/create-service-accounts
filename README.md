@@ -69,9 +69,10 @@ Now
 
  - Check if pip is installed properly or not. Run the command
    - `pip -V`
- - Check if it shows somethings like this
+<!--  - Check if it shows somethings like this
    > pip 22.1.2 from C:\Users\aksh\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10)
- - If not repeat the process
+ - If not repeat the process -->
+ 
  - When it's installed properly we are good to go
 
 
@@ -113,3 +114,21 @@ Now you would see **Token.pickle** saved in your folder
  - Now copy paste the URL in browser for authentication
 
 Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in your folder
+
+
+
+### Creating the service accounts
+
+- Open POWERSHELL from windows Accounts folder
+
+- Copy Paste this command 
+   - Windows users
+     - `$emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt`
+
+   - Linux / MacOs users 
+     - `grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt`
+
+- After completion you'll see a text document "emails" in the "accounts" folder
+- Open the text document 'email' and you'll have your service accounts
+
+
