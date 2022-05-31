@@ -26,28 +26,61 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 # How to create the files
 
 ## Download MLTB Repository to your local PC Storage
+
 - open your github account
-- [github.com/akshzyx/create-service-accounts](github.com/akshzyx/create-service-accounts) Download ZIP then extract to your PC folder
-- create a folder "Bot credentials" side by side
+- [github.com/akshzyx/create-service-accounts](github.com/akshzyx/create-service-accounts) Download ZIP then extract to your PC folder and rename
+
 
 
 ## Create credentials.JSON in Google Cloud Console
 
 - Go to the Google Cloud Console and if you don't have an existing project, create a new one
-- Then, enable the google drive api
 - Go to the OAuth Consent Screen and select "External" and click on "Create"
 - Fulfill all required informations (the one with a red *) and click on "Save and Continue" 3 times (the "Scopes" and "Test users" parts do not require any inputs)
 - Click on publish and confirm
-- On the credentials tab, click on "Create Credentials" then "OAuth client ID", select "Desktop app"
-- Assign any name and proceed
-- Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  `credentials.JSON` in the "Bot credentials" folder
+- On the credentials tab, click on "Create Credentials" then "OAuth client ID"
+- Select "Desktop app" & assign any name and proceed
+- Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  `credentials.JSON` in the "create-service-accounts" folder
 
 
 ## ENABLE Required API
 - Go to console.cloud.google.com/apis/library
 
---- ENABLE Google Drive API
+  --- ENABLE Google Drive API
 
---- ENABLE Identity and Access Management (IAM) API
+  --- ENABLE Identity and Access Management (IAM) API
+  
+  
 
 ## Create Token.Pickle + Token_sa.Pickle + Service Accounts JSON Files from Windows CMD
+
+### Install Python in Windows 10 System (FOLLOW this)
+- RUN CMD then type Phyton
+- Install it from Microsoft Store
+- Close CMD
+
+Now
+- Open CMD from mltb folder
+- Run the following commands
+
+  - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+
+  - `python get-pip.py`
+
+ - Check if pip is installed properly or not. Run the command
+   - `pip -V`
+ - Check if it shows somethings like this
+   > pip 22.1.2 from C:\Users\aksh\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10)
+ - If not repeat the process
+ - When it's installed properly we are good to go
+
+
+### Generate Token.pickle
+
+- Run the following command
+  - `pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+- Now run either of the command
+  - `python3 generate_drive_token.py`
+ or
+  - `python generate_drive_token.py`
+
