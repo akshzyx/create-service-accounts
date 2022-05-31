@@ -79,8 +79,13 @@ Now
 
 - Run the following command
   - `pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+
+
 - Now run either of the command
+ 
   - `python3 generate_drive_token.py`
- or
-  - `python generate_drive_token.py`
+
+  or
+    
+    - `python generate_drive_token.py`
 
