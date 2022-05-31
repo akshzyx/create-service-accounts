@@ -46,9 +46,9 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 ## ENABLE Required API
 - Go to console.cloud.google.com/apis/library
 
-  --- ENABLE Google Drive API
+  - ENABLE Google Drive API
 
-  --- ENABLE Identity and Access Management (IAM) API
+  - ENABLE Identity and Access Management (IAM) API
   
   
 
@@ -132,3 +132,22 @@ Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in
 - Open the text document 'email' and you'll have your service accounts
 
 
+
+## Add Service Account to SHARED DRIVE / TEAM DRIVE
+
+In order to manage the files (copy, duplicate...) into your shared drives with the service accounts, you must create a google group 
+
+- Go to groups.google.com
+
+- create a new group (configure it as you which) [DON'T add SA in the 3rd step while creating group]
+
+- open your group, go to members tab and press 'Add Members'
+
+- Copy all mails from \accounts\emails.txt and paste in 'Group members' field, then press 'Add Members'
+
+- Now go to your SHARED DRIVE / TEAM DRIVE & add your google group email address(it will be something like blahblah@googlegroups.com) to your team drive !
+  - It's Upto you whether to add google group as 'Content Manager', 'Viewer' etc...
+
+## If you don't have SHARED DRIVE / TEAM DRIVE
+
+   - **Create one here - http://msgsuite.eu.org or https://td.msgsuite.workers.dev**
