@@ -1,9 +1,32 @@
 # create-service-accounts
-create service accounts (sa)
+Process on how create service accounts (sa).
 
-download mtlb and create a folder "Bot credentials"
+# What are service accounts?
+
+A service account is a special kind of account used by an application or compute workload, such as a Compute Engine virtual machine (VM) instance, rather than a person. Applications use service accounts to make authorized API calls, authorized as either the service account itself, or as Google Workspace or Cloud Identity users through domain-wide delegation.
+
+For example, a service account can be attached to a Compute Engine VM, so that applications running on that VM can authenticate as the service account. In addition, the service account can be granted IAM roles that let it access resources. The service account is used as the identity of the application, and the service account's roles control which resources the application can access.
+
+A service account is identified by its email address, which is unique to the account.
+
+# Why are service accounts useful?
+
+The service accounts can be used to bypass the 750Gb/day upload limit set by google in google drive. It means that you can use them to upload more than 750Gb per day, duplicate hundreds of files...
+
+Each service account has a 750Gb upload limit per day. You can create up to 100 service account per google cloud project. So, with only one project you can upload/duplicate up to 75Tb a day! 
+
+
+
 
 # How to create the accounts
+
+## Download MLTB Repository to your local PC Storage
+- open your github account
+
+- github.com/akshzyx/create-service-accounts Download ZIP then extract to your PC folder
+- create a folder "Bot credentials" side by side.
+
+/n
 
 ## Create credentials.JSON in Google Cloud Console
 
