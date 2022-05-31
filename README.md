@@ -89,3 +89,27 @@ Now
     
     - `python generate_drive_token.py`
 
+ - Now copy paste the URL in browser for authentication
+
+Now you would see **Token.pickle** saved in your folder
+
+
+
+### Generate Token_sa.pickle + SA Accounts folder
+
+
+- Run the following command
+  - `python -m pip install progress`
+
+
+- Now run either of the command
+ 
+  - `python3 gen_sa_accounts.py --quick-setup 1 --new-only`
+
+  or
+    
+    - `python gen_sa_accounts.py --quick-setup 1 --new-only`
+
+ - Now copy paste the URL in browser for authentication
+
+Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in your folder
