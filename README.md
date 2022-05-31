@@ -23,7 +23,7 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 
 
 
-# How to create the accounts
+# How to create the files
 
 ## Download MLTB Repository to your local PC Storage
 - open your github account
