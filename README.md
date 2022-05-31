@@ -30,7 +30,7 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 ## Download "create-service-accounts" Repository to your local PC Storage
 
 - open your github account
-- [github.com/akshzyx/create-service-accounts](https://github.com/akshzyx/create-service-accounts) Download ZIP then extract to your PC folder and rename
+- [github.com/akshzyx/create-service-accounts](https://github.com/akshzyx/create-service-accounts) download ZIP then extract to your PC folder
 
 
 
@@ -125,7 +125,7 @@ Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in
 
 ### Creating the service accounts
 
-- Open POWERSHELL from windows Accounts folder
+- Open POWERSHELL from the "accounts" folder
 
 >click on the "This PC > New Volume (F) > create-service-accounts > accounts" something like this at the top then type "POWERSHELL" there and press enter
 
@@ -137,7 +137,7 @@ Now you would see **SAs (service accounts) folder and token_sa.pickle** saved in
      - `grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt`
 
 - After completion you'll see a text document "emails" in the "accounts" folder
-- Open the text document 'email' and you'll have your service accounts
+- Open the text document "emails" and you'll have your service accounts
 
 
 
@@ -147,7 +147,7 @@ In order to manage the files (copy, duplicate...) into your shared drives with t
 
 - Go to [groups.google.com](https://groups.google.com/)
 
-- create a new group (configure it as you which) [DON'T add SA in the 3rd step while creating group]
+- create a new group (configure it as you wish) [DON'T add SA in the 3rd step while creating group]
 
 - open your group, go to members tab and press 'Add Members'
 
