@@ -1,5 +1,8 @@
-# Create Service Accounts
-Process on how create service accounts (sa).
+# **Create Service Accounts**
+
+**Process on how create service accounts (sa).**
+
+
 
 # What are service accounts?
 
@@ -9,12 +12,14 @@ For example, a service account can be attached to a Compute Engine VM, so that a
 
 A service account is identified by its email address, which is unique to the account.
 
+
+
+
 # Why are service accounts useful?
 
 The service accounts can be used to bypass the 750Gb/day upload limit set by google in google drive. It means that you can use them to upload more than 750Gb per day, duplicate hundreds of files...
 
 Each service account has a 750Gb upload limit per day. You can create up to 100 service account per google cloud project. So, with only one project you can upload/duplicate up to 75Tb a day! 
-
 
 
 
@@ -44,7 +49,7 @@ On the credentials tab, click on "Create Credentials" then "OAuth client ID", se
 
 give any name
 
-Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  credentials.JSON and "Bot credentials" folder
+Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  `credentials.JSON` in the "Bot credentials" folder
 
 
 ## ENABLE Required API
