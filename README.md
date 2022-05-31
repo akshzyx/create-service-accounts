@@ -153,7 +153,7 @@ In order to manage the files (copy, duplicate...) into your shared drives with t
 
 - Copy all mails from \accounts\emails.txt and paste in 'Group members' field, then press 'Add Members'
 
-- Now go to your SHARED DRIVE / TEAM DRIVE & add your google group email address(it will be something like blahblah@googlegroups.com) to your team drive !
+- Now go to your SHARED DRIVE / TEAM DRIVE & add your google group email address (it will be something like blahblah@googlegroups.com) to your team drive !
   - It's Upto you whether to add google group as 'Content Manager', 'Viewer' etc...
 
 ## If you don't have SHARED DRIVE / TEAM DRIVE
