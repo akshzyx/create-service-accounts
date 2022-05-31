@@ -1,6 +1,6 @@
-# **Create Service Accounts**
+# **Create Token.Pickle, Token_sa.Pickle & Service Accounts JSON Files**
 
-**Process on how create service accounts (sa).**
+**Process for creating Token.Pickle, Token_sa.Pickle & Service Accounts JSON Files from Windows CMD.**
 
 
 
