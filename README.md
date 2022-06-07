@@ -39,7 +39,7 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 - Go to the [Google Cloud Console](https://console.cloud.google.com/) and if you don't have an existing project, create a new one
 - Go to the [OAuth Consent Screen](https://console.cloud.google.com/apis/credentials/consent) and select "External" and click on "Create"
 - Fulfill all required informations (the one with a red *) and click on "Save and Continue" 3 times (the "Scopes" and "Test users" parts do not require any inputs)
-- Click on publish and confirm
+- Click on publish app and confirm
 - On the [credentials](https://console.cloud.google.com/apis/credentials) tab, click on "Create Credentials" then "OAuth client ID"
 - Select "Desktop app" & assign any name and proceed
 - Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  `credentials.JSON` in the "create-service-accounts" folder
