@@ -34,6 +34,15 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 
 
 
+## ENABLE Required API
+- Go to [console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
+
+  - ENABLE Google Drive API
+
+  - ENABLE Identity and Access Management (IAM) API
+  - 
+
+
 ## Create credentials.JSON in Google Cloud Console
 
 - Go to the [Google Cloud Console](https://console.cloud.google.com/) and if you don't have an existing project, create a new one
@@ -45,12 +54,7 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 - Click on the download button on the right of your OAuth Client IDs and save the file with the following name :  `credentials.JSON` in the "create-service-accounts" folder
 
 
-## ENABLE Required API
-- Go to [console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
 
-  - ENABLE Google Drive API
-
-  - ENABLE Identity and Access Management (IAM) API
   
   
 
