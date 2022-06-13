@@ -34,12 +34,7 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 
 
 
-## ENABLE Required API
-- Go to [console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
 
-  - ENABLE Google Drive API
-
-  - ENABLE Identity and Access Management (IAM) API
 
 
 
@@ -55,7 +50,13 @@ Each service account has a 750Gb upload limit per day. You can create up to 100 
 
 
 
-  
+## ENABLE Required API
+
+  - Go to [console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
+
+  - ENABLE Google Drive API
+
+  - ENABLE Identity and Access Management (IAM) API
   
 
 ## Create Token.Pickle + Token_sa.Pickle + Service Accounts JSON Files from Windows CMD
